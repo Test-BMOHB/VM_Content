@@ -184,7 +184,7 @@ var middleTextBottom = textCenter.append("text")
 	.attr("y", 24*3/2 + "px")
 	.attr("dy", "1em")
 	.attr('opacity', 1)
-	.text("The HRA data pulled 12 months of data for all wires in the US via  the Money Net database")
+	.text("The data pulled is 12 months of data for all wires in the US via  the wires database")
 	.call(wrap, 350);
 
 
@@ -372,7 +372,7 @@ function Draw3(){
 	changeBottomText(newText = "Lux is 2.4% ",
 		loc = -2/2, delayDisappear = 0, delayAppear = arcDelay[2]);
 	/*China*/
-	changeBottomText(newText = "China is 15% of the wires.",
+	changeBottomText(newText = "China is 15% of the wires, though China law caps wires at 50k annually(more to come later).",
 		loc = -1/2, delayDisappear = arcDelay[3], delayAppear = arcDelay[4]);	
 	/*Other*/
 	changeBottomText(newText = "Wires combined in \"Other\" are very small and are combined",
